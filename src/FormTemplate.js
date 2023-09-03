@@ -17,7 +17,6 @@ const FormTemplate = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
           form.current.reset();
           formMess.innerHTML = "<p class='success'>Email envoyer !</p>";
 
